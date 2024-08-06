@@ -20,9 +20,6 @@ jobs:
         with:
           hugo-version: '0.128.2'
 
-      - name: List files in themes directory
-        run: ls -la -R ./themes
-
       - name: Build the site
         run: hugo --minify --verbose
 
