@@ -19,7 +19,7 @@ jobs:
           hugo-version: '0.128.2'
 
       - name: Build the site
-        run: hugo --minify
+        run: hugo --minify --verbose
 
       - name: List files in public directory
         run: ls -la ./public
