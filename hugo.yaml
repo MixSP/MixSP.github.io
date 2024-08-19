@@ -3,6 +3,9 @@ languageCode: "ru"
 title: "MixSP"
 theme: "PaperMod"
 
+enableRobotsTXT: true
+
+
 params:
   defaultTheme: "auto"
   enableEmoji: true
